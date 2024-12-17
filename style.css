@@ -48,7 +48,7 @@ main {
   padding: 2em;
   border-radius: 10px;
   margin-bottom: 2em;
-  text-align: center;
+  text-align: left;
   background-image: url("images/OpExcel.jpeg"); /* Add the background image */
   background-size: cover; /* Cover the entire area */
   background-position: center; /* Center the image */
