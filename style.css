@@ -41,15 +41,18 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
     border-radius: 8px;
 }
-
 /* Hero Section */
 .hero {
-    background-color: #222; /* Dark header */
-    color: white;
-    padding: 2em;
-    border-radius: 10px;
-    margin-bottom: 2em;
-    text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 2em;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  text-align: center;
+  background-image: url("images/OpExcel.jpeg"); /* Add the background image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Avoid image repetition */
 }
 
 .hero h1 {
