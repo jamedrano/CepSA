@@ -1,45 +1,45 @@
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
-  color: #333;
-  line-height: 1.6;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
 }
 
 header {
-  background-color: #222;
-  color: white;
-  padding: 1em 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 header .logo {
-  font-weight: bold;
-  font-size: 1.5em;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 header nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 1em;
-  transition: color 0.3s;
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    transition: color 0.3s;
 }
 
 header nav a:hover {
-  text-decoration: underline;
-  color: #ffd700;
+    text-decoration: underline;
+    color: #ffd700;
 }
 
 main {
-  padding: 2em;
-  max-width: 900px;
-  margin: 2em auto;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+    padding: 2em;
+    max-width: 900px;
+    margin: 2em auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 /* Hero Section */
@@ -78,54 +78,55 @@ main {
 
 /* Services Section */
 .services {
-  margin-top: 2em;
+    margin-top: 2em;
 }
 
 .services h2 {
-  margin-bottom: 1em;
-  text-align: center;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 .services ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .services li {
-  margin: 1em;
-  padding: 1.5em;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  flex: 0 1 calc(30% - 2em);
-  min-width: 200px;
-  text-align: center;
-  transition: transform 0.3s;
+    margin: 1em;
+    padding: 1.5em;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 0 1 calc(30% - 2em);
+    min-width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
 }
 
 .services li:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .services li a {
-  text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 0.5em;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5em;
 }
 
 .services li a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 .services li p {
-  font-size: 0.9em;
-  color: #555;
-  min-height: 6em;
+    font-size: 0.9em;
+    color: #555;
+    min-height: 6em;
 }
 
 /* Contact Form */
@@ -138,8 +139,8 @@ main {
 }
 
 .contact-form label{
-  margin-bottom: 0.5em;
-  font-weight: bold;
+    margin-bottom: 0.5em;
+    font-weight: bold;
 }
 
 .contact-form input,
@@ -169,4 +170,5 @@ footer {
     text-align: center;
     padding: 1em 0;
     width: 100%;
+    margin-top: 2em; /* Added margin to separate from the main content */
 }
