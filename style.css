@@ -2,14 +2,14 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #343a40; /* Dark charcoal background */
+    color: #f8f9fa; /* Light gray text */
     line-height: 1.6;
 }
 
 header {
-    background-color: #222;
-    color: white;
+    background-color: #222; /* Dark header */
+    color: #f8f9fa; /* Light text */
     padding: 1em 0;
     display: flex;
     justify-content: space-around;
@@ -22,7 +22,7 @@ header .logo {
 }
 
 header nav a {
-    color: white;
+    color: #f8f9fa; /* Light text */
     text-decoration: none;
     margin: 0 1em;
     transition: color 0.3s;
@@ -30,21 +30,21 @@ header nav a {
 
 header nav a:hover {
     text-decoration: underline;
-    color: #ffd700;
+    color: #17a2b8; /* Teal/Cyan hover color */
 }
 
 main {
     padding: 2em;
     max-width: 900px;
     margin: 2em auto;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #495057; /* Dark gray background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
     border-radius: 8px;
 }
 
 /* Hero Section */
 .hero {
-    background-color: #333;
+    background-color: #222; /* Dark header */
     color: white;
     padding: 2em;
     border-radius: 10px;
@@ -63,17 +63,17 @@ main {
 }
 
 .hero a.cta-button{
-  display: inline-block;
-  background-color: #ffd700;
-  color: #222;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s;
+    display: inline-block;
+    background-color: #17a2b8; /* Teal/Cyan CTA Button */
+    color: #f8f9fa;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
 }
 .hero a.cta-button:hover{
-    background-color: #e6c200;
+    background-color: #138496; /* Darker teal/cyan hover */
 }
 
 /* Services Section */
@@ -97,9 +97,9 @@ main {
 .services li {
     margin: 1em;
     padding: 1.5em;
-    background-color: #f9f9f9;
+    background-color: #343a40; /* Dark gray for cards */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     flex: 0 1 calc(30% - 2em);
     min-width: 200px;
     text-align: center;
@@ -108,12 +108,12 @@ main {
 
 .services li:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .services li a {
     text-decoration: none;
-    color: #007bff;
+    color: #17a2b8; /* Teal/Cyan link color */
     font-weight: bold;
     display: block;
     margin-bottom: 0.5em;
@@ -125,9 +125,10 @@ main {
 
 .services li p {
     font-size: 0.9em;
-    color: #555;
+    color: #adb5bd; /* Light gray text */
     min-height: 6em;
 }
+
 
 /* Contact Form */
 .contact-form form {
@@ -147,11 +148,13 @@ main {
 .contact-form textarea {
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #6c757d;
     border-radius: 4px;
+    background-color: #495057;
+    color: white;
 }
 .contact-form button {
-    background-color: #007bff;
+    background-color: #17a2b8; /* Teal/Cyan button */
     color: white;
     padding: 10px 15px;
     border: none;
@@ -161,7 +164,7 @@ main {
     transition: background-color 0.3s;
 }
 .contact-form button:hover{
-    background-color: #0056b3;
+    background-color: #138496; /* Darker teal/cyan hover */
 }
 
 footer {
@@ -170,5 +173,5 @@ footer {
     text-align: center;
     padding: 1em 0;
     width: 100%;
-    margin-top: 2em; /* Added margin to separate from the main content */
+    margin-top: 2em;
 }
